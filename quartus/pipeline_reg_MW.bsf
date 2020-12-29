@@ -1,0 +1,85 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 296 896)
+	(text "pipeline_reg_MW" (rect 5 0 92 11)(font "Arial" ))
+	(text "inst" (rect 8 816 26 827)(font "Arial" ))
+	(port
+		(pt 0 784)
+		(input)
+		(text "clk" (rect 0 0 15 11)(font "Arial" ))
+		(text "clk" (rect 21 779 36 790)(font "Arial" ))
+		(line (pt 0 784)(pt 16 784))
+	)
+	(port
+		(pt 0 800)
+		(input)
+		(text "reset_n" (rect 0 0 38 11)(font "Arial" ))
+		(text "reset_n" (rect 21 795 59 806)(font "Arial" ))
+		(line (pt 0 800)(pt 16 800))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "mux_1_in[31..0]" (rect 0 0 79 11)(font "Arial" ))
+		(text "mux_1_in[31..0]" (rect 21 107 100 118)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "rf_wren_in" (rect 0 0 53 11)(font "Arial" ))
+		(text "rf_wren_in" (rect 21 443 74 454)(font "Arial" ))
+		(line (pt 0 448)(pt 16 448))
+	)
+	(port
+		(pt 0 688)
+		(input)
+		(text "mux_2_in[4..0]" (rect 0 0 73 11)(font "Arial" ))
+		(text "mux_2_in[4..0]" (rect 21 683 94 694)(font "Arial" ))
+		(line (pt 0 688)(pt 16 688)(line_width 3))
+	)
+	(port
+		(pt 232 112)
+		(output)
+		(text "mux_1_out[31..0]" (rect 0 0 84 11)(font "Arial" ))
+		(text "mux_1_out[31..0]" (rect 140 107 224 118)(font "Arial" ))
+		(line (pt 232 112)(pt 216 112)(line_width 3))
+	)
+	(port
+		(pt 232 448)
+		(output)
+		(text "rf_wren_out" (rect 0 0 60 11)(font "Arial" ))
+		(text "rf_wren_out" (rect 161 443 221 454)(font "Arial" ))
+		(line (pt 232 448)(pt 216 448))
+	)
+	(port
+		(pt 232 688)
+		(output)
+		(text "mux_2_out[4..0]" (rect 0 0 79 11)(font "Arial" ))
+		(text "mux_2_out[4..0]" (rect 145 683 224 694)(font "Arial" ))
+		(line (pt 232 688)(pt 216 688)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 816))
+	)
+)
